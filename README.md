@@ -45,3 +45,18 @@ This project focuses on developing a system for recognizing text in handwritten 
 - OpenCV
 - Matplotlib
 - Pandas
+
+## Repository Structure
+- **load_data:** Scripts or classes for loading training and validation images.
+- **clean_data:** Scripts for cleaning data, including replacing inappropriate data or deleting.
+- **preprocessing:** Scripts for preprocessing data.
+- **prepare_dataset:** Scripts for preparing the dataset, including generating output, calculating lengths of dates, and other tasks.
+- **model:** Implementation of the CRNN model architecture.
+- **data_loader:** Scripts or classes for loading data.
+- **training:** Scripts for model training and evaluation.
+- **testing:** Scripts for testing the model on validation and test datasets.
+- **analysis_and_model_adjustments:** Scripts for analyzing model performance, identifying unrecognized characters, and making adjustments to improve model performance.
+
+## Documentation
+- **README.md:** Contains a comprehensive project description, instructions for running, project dependencies, and usage examples.
+- **requirements.txt:** List of all project dependencies.
