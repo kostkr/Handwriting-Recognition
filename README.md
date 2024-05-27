@@ -60,3 +60,7 @@ This project focuses on developing a system for recognizing text in handwritten 
 ## Documentation
 - **README.md:** Contains a comprehensive project description, instructions for running, project dependencies, and usage examples.
 - **requirements.txt:** List of all project dependencies.
+
+## Start Model
+- **start_model.ipynb** Notebook to start model. Each cell should be executed one by one until the end.
+- **project_train_model.ipynb** Notebook to train model. 
