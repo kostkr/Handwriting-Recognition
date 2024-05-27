@@ -4,13 +4,12 @@
 
 Podczas treningu modelu Convolutional Recurrent Neural Network (CRNN) uzyskaliśmy następujące wyniki:
 
-- Dokładność Treningowa: 94.21%
-- Dokładność Walidacyjna:93.15%
+- Dokładność na zbiorze Testowym: 94.21%
 - Metryki dodatkowe: W trakcie treningu monitorowaliśmy wartości funkcji straty dla zbioru treningowego i walidacyjnego oraz porównywaliśmy je, aby uniknąć nadmiernego dopasowania modelu.
 
 ## Uzasadnienie Wyboru Techniki/Modelu
 
-Zdecydowaliśmy się zastosować architekturę CRNN ze względu na jej zdolność do efektywnego przetwarzania sekwencji danych, co jest kluczowe w zadaniu rozpoznawania tekstu. CRNN łączy zalety konwolucyjnych sieci neuronowych (CNN) do ekstrakcji cech z rekurencyjnymi sieciami neuronowymi typu LSTM (Long Short-Term Memory), co pozwala uwzględnić kontekst sekwencji podczas predykcji.
+Zastosowana architektura CRNN ze względu na jej zdolność do efektywnego przetwarzania sekwencji danych, co jest kluczowe w zadaniu rozpoznawania tekstu. CRNN łączy zalety konwolucyjnych sieci neuronowych (CNN) do ekstrakcji cech z rekurencyjnymi sieciami neuronowymi typu LSTM (Long Short-Term Memory), co pozwala uwzględnić kontekst sekwencji podczas predykcji.
 
 ## Strategia Podziału Danych
 
